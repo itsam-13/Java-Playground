@@ -8,6 +8,6 @@ public class arithmetic_opr {
         System.out.println(x-y);
         System.out.println(x*y);
         System.out.println(x/y);
-        
+
     }
 }
