@@ -1,0 +1,35 @@
+package OOPS;
+
+public class PolyMorphism {
+    public static class Dog{
+        void speak(){
+            System.out.println("Bark");
+        }
+    }
+    public static class Cat{
+        void speak(){
+            System.out.println("Meow");
+        }
+    }
+    public static class Lion{
+        void speak(){
+            System.out.println("Roar");
+        }
+    }
+    public static class Human{
+        void speak(){
+            System.out.println("Hello");
+        }
+    }
+    static void main() {
+    Dog d = new Dog();
+    Cat c = new Cat();
+    Lion l = new Lion();
+    Human h = new Human();
+
+    d.speak();
+    c.speak();
+    l.speak();
+    h.speak(); //above is example of polymorphism means one name multiple task.
+    }
+}

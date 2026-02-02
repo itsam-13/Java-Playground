@@ -1,4 +1,7 @@
 package Basics;
+import java.util.Scanner;
+
+import static java.lang.System.in;
 
 public class increment_decrement {
     static void main() {
@@ -17,5 +20,10 @@ public class increment_decrement {
         int a=5;
         System.out.println(a--);
         System.out.println(a);
+        Scanner sc = new Scanner(in);
+        int r;
+        System.out.println("Enter a number");
+        r = sc.nextInt();
+
     }
 }
